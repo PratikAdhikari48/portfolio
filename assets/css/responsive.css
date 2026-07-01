@@ -65,3 +65,119 @@
 }
 
 }
+
+@media(max-width:991px){
+
+.project-layout{
+
+    grid-template-columns:1fr;
+
+}
+
+.project-image{
+
+    order:-1;
+
+}
+
+.project-features{
+
+    grid-template-columns:1fr;
+
+}
+
+.project-buttons{
+
+    flex-direction:column;
+
+}
+
+}
+
+@media(max-width:991px){
+
+.mini-project{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:991px){
+
+.toolbox-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.full-width{
+
+    grid-column:auto;
+
+}
+
+}
+
+@media(max-width:991px){
+
+.experience-body{
+
+    grid-template-columns:1fr;
+
+    gap:40px;
+
+}
+
+}
+
+@media(max-width:991px){
+
+.achievement-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.contact-box{
+
+    padding:40px 25px;
+
+}
+
+.contact-box h2{
+
+    font-size:2.3rem;
+
+}
+
+.contact-buttons{
+
+    flex-direction:column;
+
+}
+
+.contact-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.footer-bottom{
+
+    justify-content:center;
+
+    text-align:center;
+
+}
+
+}
